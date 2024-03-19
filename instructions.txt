@@ -1,0 +1,21 @@
+Create a new React project.
+Set up a TypeScript configuration for the project.
+Create a component called UserList that will serve as the container for displaying the list of users.
+Inside the UserList component, make an API call to fetch a list of users from the following endpoint: https://jsonplaceholder.typicode.com/users.
+Store the fetched user data in the component's state.
+Display the list of users in a presentable format. Each user should display their name, username, email, and phone number.
+Style the user list to make it visually appealing using CSS or a CSS-in-JS library like styled-components.
+Implement error handling for the API call and display an error message if the request fails.
+Create a separate component called UserDetails that will render the details of a selected user when clicked.
+When a user from the list is clicked, display the details of that user in the UserDetails component.
+Allow the user to go back to the user list view from the UserDetails component.
+Write unit tests for at least one component using a testing library like Jest and React Testing Library.
+
+Additional considerations:
+Use functional components and hooks for implementing the solution.
+Pay attention to the component's organization, readability, and maintainability.
+Utilize TypeScript to add type safety to your code.
+Follow best practices for handling async operations, error handling, and state management.
+Ensure the application is responsive and works well on different screen sizes.
+Focus on code quality, including clean and well-structured code, and adherence to best practices.
+
